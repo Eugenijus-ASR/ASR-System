@@ -1,57 +1,52 @@
 # ASR-System
 Lithuanian language recognition using Kaldi system
 
-X (input):
+# Data Directory
 
-Audio signal (expert-dictated sentences/phrases)
+This directory contains the training and evaluation data used in the thesis **"Subject Matter Language Recognition Using Training"**.  
+The data is organized into supervised pairs **(X, y)**, where:
 
-Extracted features, e.g., MFCC (Mel-Frequency Cepstral Coefficients), spectral properties, i-vectors (for speaker adaptation)
+- **X (input):** audio recording of expert-dictated sentences/phrases, represented as raw waveform or extracted acoustic features (MFCC, i-vectors).  
+- **y (output):** text transcription of the audio, including specialized terminology from the chosen domain (e.g., medical or technical vocabulary).  
 
-Additionally: domain-specific terms (dictionary, language model)
+---
 
-Y (output):
+## Directory Structure
+\data
+│
+├── audio\ # Raw audio recordings (.wav files)
+├── text\ # Reference transcriptions (.txt files)
+├── features\ # Pre-computed features (MFCC, i-vectors)
+└── README.md # Documentation (this file)
 
-Text transcription (sequence of words in written form)
+---
 
-Including specialized terminology from the chosen domain (e.g., medical or technical vocabulary)
+## Examples of (X, y) Pairs
 
+**Example 1**  
+- **X:** `audio/001.wav` → MFCC feature sequence  
+- **y:** `"Paciento kraujospūdis yra normalus"`
 
-Simplified:
+**Example 2**  
+- **X:** `audio/002.wav` → MFCC + i-vector (speaker adaptation)  
+- **y:** `"Atlikta kompiuterinė tomografija"`
 
-👉 X = audio recording (speech signal converted into features)
+**Example 3**  
+- **X:** `audio/003.wav` → MFCC + lexical mapping from the domain dictionary  
+- **y:** `"Pacientui paskirta intraveninė terapija"`
 
-👉 Y = recognized text (domain-specific transcription)
+**Example 4**  
+- **X:** `audio/004.wav` → Acoustic features (MFCC, CMVN normalized)  
+- **y:** `"Duomenų bazės serveris sėkmingai paleistas"`
 
-Each (X, y) pair consists of an audio recording (X) and its corresponding transcription (y). The input audio is transformed into acoustic features (MFCC, i-vectors), while the output transcription includes domain-specific terminology relevant to the expert’s field.
+**Example 5**  
+- **X:** `audio/005.wav` → Feature vector sequence representing the speech signal  
+- **y:** `"Įvykis užregistruotas informacinėje sistemoje"`
 
-Examples of (X, y) pairs
+---
 
-Example 1
-
-X: Audio file 001.wav (expert-dictated phrase) → MFCC features extracted from the waveform
-
-y: "Paciento kraujospūdis yra normalus"
-
-Example 2
-
-X: Audio file 002.wav → MFCC + i-vector (speaker adaptation)
-
-y: "Atlikta kompiuterinė tomografija"
-
-Example 3
-
-X: Audio file 003.wav → MFCC features + lexical mapping from the domain dictionary
-
-y: "Pacientui paskirta intraveninė terapija"
-
-Example 4
-
-X: Audio file 004.wav → Acoustic features (MFCC, CMVN normalized)
-
-y: "Duomenų bazės serveris sėkmingai paleistas"
-
-Example 5
-
-X: Audio file 005.wav → Feature vector sequence representing the speech signal
-
-y: "Įvykis užregistruotas informacinėje sistemoje"
+## Notes
+- All audio recordings are stored in **mono, 16 kHz WAV format**.  
+- Transcriptions are stored in **UTF-8 encoded text files**.  
+- Features are extracted using Kaldi’s standard preprocessing pipeline (MFCC, CMVN, i-vectors).  
+- The dataset combines **publicly available Lithuanian speech data** (Common Voice) with **custom expert-recorded domain-specific speech**.  
