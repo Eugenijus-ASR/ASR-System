@@ -19,3 +19,4 @@ Simplified:
 
 👉 X = audio recording (speech signal converted into features)
 👉 Y = recognized text (domain-specific transcription)
+
