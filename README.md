@@ -15,8 +15,10 @@ Text transcription (sequence of words in written form)
 
 Including specialized terminology from the chosen domain (e.g., medical or technical vocabulary)
 
+
 Simplified:
 
 👉 X = audio recording (speech signal converted into features)
+
 👉 Y = recognized text (domain-specific transcription)
 
