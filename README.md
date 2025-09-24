@@ -13,7 +13,7 @@ The data is organized into supervised pairs **(X, y)**, where:
 
 ## Directory Structure
 \data
-│
+
 ├── audio\ # Raw audio recordings (.wav files)
 
 ├── text\ # Reference transcriptions (.txt files)
