@@ -52,4 +52,5 @@ The data is organized into supervised pairs **(X, y)**, where:
 - All audio recordings are stored in **mono, 16 kHz WAV format**.  
 - Transcriptions are stored in **UTF-8 encoded text files**.  
 - Features are extracted using Kaldi’s standard preprocessing pipeline (MFCC, CMVN, i-vectors).  
-- The dataset combines **publicly available Lithuanian speech data** (Common Voice) with **custom expert-recorded domain-specific speech**.  
+- The dataset combines **publicly available Lithuanian speech data** (Common Voice) with **custom expert-recorded domain-specific speech**.
+
