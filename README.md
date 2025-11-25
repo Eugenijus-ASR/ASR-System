@@ -1,17 +1,17 @@
 # ASR-System
-Lithuanian language recognition using Kaldi system
+Lithuanian language recognition using Kaldi system / Lietuvių kalbos atpažinimas naudojant Kaldi sistemą
 
-# Data Directory
+# Duomenų katalogas
 
-This directory contains the training and evaluation data used in the thesis **"Subject Matter Language Recognition Using Training"**.  
-The data is organized into supervised pairs **(X, y)**, where:
+Šiame kataloge pateikiami treniravimo ir vertinimo duomenys, naudojami baigiamajame darbe „Dalykinės kalbos atpažinimas naudojant apmokymą“.
+Duomenys organizuoti į prižiūrimus (supervised) duomenų poras (X, y), kur:
 
-- **X (input):** audio recording of expert-dictated sentences/phrases, represented as raw waveform or extracted acoustic features (MFCC, i-vectors).  
-- **y (output):** text transcription of the audio, including specialized terminology from the chosen domain (e.g., medical or technical vocabulary).  
+- **X (įvestis): eksperto diktuojamų sakinių/frazių garso įrašas, pateikiamas kaip žaliavinis garso signalas arba akustiniai požymiai (MFCC, i-vektoriai).  
+- **y (išvestis): garso transkripcija tekstu, apimanti specializuotą terminologiją iš pasirinkto domeno (pvz., medicinos ar technikos).  
 
 ---
 
-## Directory Structure
+## Katalogo struktūra
 
 Data_X_Y\
 
@@ -27,46 +27,47 @@ README.md        # Documentation (this file)
 
 ---
 
-## Examples of (X, y) Pairs
+## (X, y) duomenų porų pavyzdžiai
 
-**Example 1**  
-- **X:** `audio/001.wav` → MFCC feature sequence  
+**Pavyzdys 1**  
+- **X:** `audio/001.wav` → MFCC požymių seka  
 - **y:** `"Paciento kraujospūdis yra normalus"`
 
-**Example 2**  
-- **X:** `audio/002.wav` → MFCC + i-vector (speaker adaptation)  
+**Pavyzdys 2**  
+- **X:** `audio/002.wav` → MFCC + i-vektorius (kalbėtojo adaptacijai)  
 - **y:** `"Atlikta kompiuterinė tomografija"`
 
-**Example 3**  
-- **X:** `audio/003.wav` → MFCC + lexical mapping from the domain dictionary  
+**Pavyzdys 3**  
+- **X:** `audio/003.wav` → MFCC + leksikos žemėlapis iš domeno žodyno  
 - **y:** `"Pacientui paskirta intraveninė terapija"`
 
-**Example 4**  
-- **X:** `audio/004.wav` → Acoustic features (MFCC, CMVN normalized)  
+**Pavyzdys 4**  
+- **X:** `audio/004.wav` → Akustiniai požymiai (MFCC, CMVN normalizuoti)  
 - **y:** `"Duomenų bazės serveris sėkmingai paleistas"`
 
-**Example 5**  
-- **X:** `audio/005.wav` → Feature vector sequence representing the speech signal  
+**Pavyzdys 5**  
+- **X:** `audio/005.wav` → Požymių seka, reprezentuojanti kalbos signalą  
 - **y:** `"Įvykis užregistruotas informacinėje sistemoje"`
 
-## Notes
-- All audio recordings are stored in **mono, 16 kHz WAV format**.  
-- Transcriptions are stored in **UTF-8 encoded text files**.  
-- Features are extracted using Kaldi’s standard preprocessing pipeline (MFCC, CMVN, i-vectors).  
-- The dataset combines **publicly available Lithuanian speech data** (Common Voice) with **custom expert-recorded domain-specific speech**.
+## Pastabos
+- Visi garso įrašai saugomi mono, 16 kHz WAV formatu.**.  
+- Transkripcijos pateiktos UTF-8 koduotės tekstiniuose failuose.**.  
+- Požymiai išskirti naudojant standartinį Kaldi apdorojimo pipeline (MFCC, CMVN, i-vektoriai).  
+- Duomenų rinkinį sudaro: viešai prieinami lietuvių kalbos garso duomenys (Common Voice), specialiai įrašyti eksperto domeno garsai.
 
 ---
 
 # Demonstration of an End-to-End AI Solution using Gemini API
-### Master Thesis: *Subject Matter Language Recognition Using Training*
+### Magistro darbas: „Dalykinės kalbos atpažinimas naudojant apmokymą“
 
-This notebook demonstrates a fully operational end-to-end AI system based on the designed prompt-engineered agent developed in Lab 1.4.  
-The system executes domain-specific Lithuanian speech-to-text transcription prompts using the Gemini API.
+Šiame Colab aplanke demonstruojama pilnai veikianti end-to-end AI sistema, sukurta remiantis 1.4 laboratorinio darbo promptų inžinerija.  
+Sistema vykdo domenui pritaikytus lietuvių kalbos kalbos-atpažinimo (speech-to-text) užklausas per Gemini API.
 
-Key objectives of this notebook:
-- Load Gemini API key securely using Colab Secrets  
-- Execute zero-shot and few-shot prompt examples  
-- Demonstrate the entire pipeline (data understanding → reasoning → inference → output generation)  
-- Document the behaviour of the AI system as an end-to-end agent  
-- Provide reflection and link notebook to GitHub repository
+Pagrindiniai šio aplanko tikslai:
+- Saugiai įkelti ir naudoti Gemini API raktą (naudojant Colab Secrets).
+- Paleisti zero-shot ir few-shot promptų pavyzdžius.
+- Pademonstruoti visą apdorojimo pipeline:
+duomenų supratimas → samprotavimas → sprendinių generavimas → išvesties gavimas.
+- Dokumentuoti sistemos elgseną kaip end-to-end AI agento.
+- Susieti šį Colab aplanką su GitHub saugykla.
 
