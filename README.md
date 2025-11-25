@@ -12,54 +12,32 @@ Duomenys organizuoti į prižiūrimus (supervised) duomenų poras (X, y), kur:
 ---
 
 ## Katalogo struktūra
-
+```
 Eugenijus-ASR/
 │
-
 ├── Data_X_Y/                          # Garso įrašai, transkripcijos
-
 │   ├── audio/
-
 │   └── text/ 
-
 │
-
 ├── Prompts_1.4/                       # Zero-shot ir few-shot promptai
-
 │   ├── prompt1_zero_shot.md
-
 │   ├── prompt2_few_shot.md
-
 │   └── README.md 
-
 │
-
 ├── Work_1.3/                          # UML diagramos + PlantUML failai
-
 │   ├── (Use Case) diagrama.png
-
 │   ├── Komponentų-Architektūros diagrama.png
-
 │   ├── (Sequence) diagrama.png
-
 │   └── README.md                      # Paaiškinimas, ką vaizduoja diagramos
-
 │
-
 ├── 1.5 Demonstration of an End-to-End AI Solution using Gemini API/
-
 │   └── 1.5_description.md            # Colab aprašas
-
 │
-
 ├── 1.6 Retrieval-Augmented Generation (RAG) Extension/
-
 │   └── 1.6_description.md            # RAG aprašas
-
 │
-
 └── README.md                          # Bendras projekto aprašas
-
+```
 ---
 
 ## (X, Y) duomenų porų pavyzdžiai (Lab 1.2)
