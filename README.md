@@ -19,9 +19,9 @@ Data_X_Y\
 
   ├── text\        # Reference transcriptions (.txt files)
 
-features\        # Pre-computed features (MFCC, i-vectors)
+Prompts_1.4\         # Prompt scripts for model training/testing
 
-prompts\         # Prompt scripts for model training/testing
+features\        # Pre-computed features (MFCC, i-vectors)
 
 README.md        # Documentation (this file)
 
