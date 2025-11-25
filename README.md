@@ -107,3 +107,20 @@ Pagrindiniai šio etapo rezultatai:
 
 ---
 
+# Retrieval-Augmented Generation (RAG) Extension (Lab 1.6)
+### Magistro darbas: „Dalykinės kalbos atpažinimas naudojant apmokymą“
+
+Šiame etape į esamą ASR + GAI sprendimą buvo integruota Retrieval-Augmented Generation (RAG) metodika. Ji išplečia AI sistemos galimybes, leidžiant modeliui priimti kontekstą iš didelės domeno žinių bazės, pagerinti transkripcijos tikslumą ir sumažinti klaidas, ypač specifinėje dalykinėje kalboje.
+
+Pagrindiniai šio etapo rezultatai:
+- Sukurtas 1200+ (X,y) domeno pavyzdžių rinkinys, naudojamas kaip semantinė bazė RAG paieškai.
+- Duomenys suindeksuoti ir įkelti į ChromaDB vektorių duomenų bazę, naudojant sakinių embedding'ų modelį semantinei paieškai.
+- Įgyvendintas automatinis konteksto atrinkimas, kuris bet kuriai naujai įvesčiai X suranda top-3 semantiškai panašius pavyzdžius iš duomenų bazės.
+- Suformuota RAG prompto struktūra:
+(pirminė transkripcija y₀ + artimiausi pavyzdžiai + instrukcijos).
+- RAG praturtintas promptas siunčiamas į Gemini 2.5 Flash (LLM API), kuris grąžina semantiškai pagerintą transkripciją y₁.
+- Google Colab aplanke pademonstruotas visas RAG procesas:
+įvestis → paieška → pavyzdžių įterpimas → prompto generavimas → LLM transkripcija.
+- Atliktas rezultato palyginimas su zero-shot metodu ir parodyta, kad RAG metodas padidina stabilumą bei tikslumą, ypač medicininiuose tekstuose.
+
+Ši užduotis užbaigia end-to-end ASR + GAI architektūros kūrimą ir parodo, kaip realaus pasaulio duomenų kontekstas gali būti įtrauktas į generatyvinio DI sprendimo veikimą, ženkliai pagerinant jo domeninę kompetenciją.
