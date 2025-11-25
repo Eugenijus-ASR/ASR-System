@@ -29,4 +29,11 @@ Sprendinį sudaro šie pagrindiniai komponentai:
     Garso apdorojimo modulis išskiria MFCC požymius ir rėmelių struktūrą.
 
     2. Pagrindinis ASR variklis (Kaldi)
+    Naudojamas kaip pirmas žingsnis generuojant pirminę transkripciją y₀.
+    Kaldi atlieka akustinį ir lingvistinį dekodavimą.
 
+    3. RAG orkestratorius
+Paimama pirminė Kaldi transkripcija.
+Vykdoma semantinė paieška ChromaDB duomenų bazėje.
+Paimami top-3 panašiausi (X, y) pavyzdžiai iš domeno duomenų rinkinio.
+Generuojamas RAG promptas LLM modeliui (kontekstas + y₀).
