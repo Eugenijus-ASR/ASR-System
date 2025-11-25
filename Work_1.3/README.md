@@ -24,16 +24,26 @@ Sistemos tikslas – iš gydytojo diktuojamo garso generuoti struktūruotą, tik
 Sprendinį sudaro šie pagrindiniai komponentai:
 
     1. Garso surinkimas ir apdorojimas
-    Gydytojas diktuoja medicininę išvadą per Web UI ar diktavimo aplikaciją.
-    Sistema siunčia garso srautą realiu laiku.
-    Garso apdorojimo modulis išskiria MFCC požymius ir rėmelių struktūrą.
+    - Gydytojas diktuoja medicininę išvadą per Web UI ar diktavimo aplikaciją.
+    - Sistema siunčia garso srautą realiu laiku.
+    - Garso apdorojimo modulis išskiria MFCC požymius ir rėmelių struktūrą.
 
     2. Pagrindinis ASR variklis (Kaldi)
-    Naudojamas kaip pirmas žingsnis generuojant pirminę transkripciją y₀.
-    Kaldi atlieka akustinį ir lingvistinį dekodavimą.
+    - Naudojamas kaip pirmas žingsnis generuojant pirminę transkripciją y₀.
+    - Kaldi atlieka akustinį ir lingvistinį dekodavimą.
 
     3. RAG orkestratorius
-Paimama pirminė Kaldi transkripcija.
-Vykdoma semantinė paieška ChromaDB duomenų bazėje.
-Paimami top-3 panašiausi (X, y) pavyzdžiai iš domeno duomenų rinkinio.
-Generuojamas RAG promptas LLM modeliui (kontekstas + y₀).
+    - Paimama pirminė Kaldi transkripcija.
+    - Vykdoma semantinė paieška ChromaDB duomenų bazėje.
+    - Paimami top-3 panašiausi (X, y) pavyzdžiai iš domeno duomenų rinkinio.
+    - Generuojamas RAG promptas LLM modeliui (kontekstas + y₀).
+
+    4. Generatyvinis dirbtinis intelektas (Gemini 2.5 Flash)
+    - LLM sudaro patobulintą transkripciją y₁.
+    - Modelis pritaiko medicininę terminologiją, sutvarko gramatiką, sustiprina semantinį tikslumą.
+    - Tai yra integracijos vieta su GAI technologijomis.  
+
+    5. Rezultatų validavimas
+    - Gydytojas peržiūri, redaguoja ir patvirtina generuotą tekstą.
+    - Tekstas išsaugomas į E. sveikatos sistemą.    
+
