@@ -56,7 +56,7 @@ Sprendinį sudaro šie pagrindiniai komponentai:
 
 Toliau pateikiamos UML diagramos, kurios parodo, kaip GAI integruojamas į sistemą.
 
-A. Use case diagrama
+### A. Use case diagrama
 ```
 Aprašymas
 
@@ -71,7 +71,7 @@ Pagrindiniai GAI scenarijai:
     - Automatizuotas RAG prompto sudarymas
     - Modelių priežiūra ir kokybės monitoringas
 ```
-B. Sistemos komponentų diagrama
+### B. Sistemos komponentų diagrama
 ```
 Aprašymas
 
@@ -83,7 +83,7 @@ Diagrama parodo:
     - GAI teksto generavimo modulį (Gemini API)
     - Integraciją su EHR sistemomis
 ```
-C. Sekos diagrama
+### C. Sekos diagrama
 ```
 Aprašymas
 
@@ -117,6 +117,7 @@ Integravus GAI (LLM) į ASR sprendimą pasiekiami šie privalumai:
 Šiame skyriuje aprašyta įmonė, sistemos architektūra ir GAI integracijos modelis. Pateiktos UML use-case, komponentų ir sekų diagramos tiksliai atspindi, kaip GAI (Gemini LLM) ir RAG mechanizmas praturtina tradicinį Kaldi pagrindu veikiantį ASR pipeline.
 
 Šis sprendimas gali būti panaudotas realiose gydymo įstaigose, užtikrinant didesnį tikslumą, sumažintą administracinį darbo krūvį ir modernesnius skaitmeninius procesus.
+
 
 
 
