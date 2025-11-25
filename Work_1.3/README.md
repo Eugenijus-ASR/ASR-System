@@ -24,9 +24,9 @@ Sistemos tikslas – iš gydytojo diktuojamo garso generuoti struktūruotą, tik
 Sprendinį sudaro šie pagrindiniai komponentai:
 
     1. Garso surinkimas ir apdorojimas
-    
     Gydytojas diktuoja medicininę išvadą per Web UI ar diktavimo aplikaciją.
-
     Sistema siunčia garso srautą realiu laiku.
-
     Garso apdorojimo modulis išskiria MFCC požymius ir rėmelių struktūrą.
+
+    2. Pagrindinis ASR variklis (Kaldi)
+
