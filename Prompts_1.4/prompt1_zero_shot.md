@@ -30,3 +30,6 @@ A new Lithuanian audio file `new_case.wav` contains the following expert dictati
 {
   "transcription": "..."
 }
+```
+
+Replace ... with the best Lithuanian transcription y for this audio according to your domain-specific ASR pipeline.
