@@ -87,3 +87,23 @@ duomenų supratimas → samprotavimas → sprendinių generavimas → išvesties
 - Dokumentuoti sistemos elgseną kaip end-to-end AI agento.
 - Susieti šį Colab aplanką su GitHub saugykla.
 
+---
+
+# End-to-End AI System Demonstration using the Gemini API (Lab 1.5)
+### Magistro darbas: „Dalykinės kalbos atpažinimas naudojant apmokymą“
+
+Šiame etape buvo įgyvendintas ir pademonstruotas pilnai veikiantis end-to-end dirbtinio intelekto sprendinys, kuris vykdo dalykinės lietuvių kalbos transkripciją pasitelkiant Gemini API. Užduotis tęsia ankstesnę 1.4 laboratorinio darbo promptų inžineriją ir parodo, kaip AI agentas gali būti pritaikytas realiam praktiniam naudojimui.
+
+Pagrindiniai šio etapo rezultatai:
+- Sukurtas Google Colab aplankas, kuriame dokumentuojamas visas sistemos veikimo procesas.
+- Saugiai integruotas Gemini API raktas, naudojant Colab Secrets mechanizmą (be kodo įterpimo į aplanką).
+- Į Colab įtraukti zero-shot ir few-shot promptų pavyzdžiai, paremti 1.4 etapo medžiaga.
+- Pademonstruotas visas transkripcijos pipeline:
+įvesties duomenų analizė → samprotavimas → modelio išvestis → rezultatų sugeneravimas.
+- Pateiktas end-to-end agento veikimo įrodymas, naudojant tikrą domeno tekstų transkripciją.
+- Dokumentuota sistemos elgsena, o galutinis Colab aplankas susietas su GitHub saugykla.
+
+Ši demonstracija patvirtino, kad suprojektuota RAG + GAI architektūra gali veikti kaip realus praktinis sprendimas, galintis priimti garso įvestį, apdoroti ją per kelis etapus ir sugeneruoti tikslią, semantiškai praturtintą transkripciją.
+
+---
+
