@@ -49,14 +49,13 @@ README.md        # Documentation (this file)
 - **X:** `audio/005.wav` → Feature vector sequence representing the speech signal  
 - **y:** `"Įvykis užregistruotas informacinėje sistemoje"`
 
----
-
 ## Notes
 - All audio recordings are stored in **mono, 16 kHz WAV format**.  
 - Transcriptions are stored in **UTF-8 encoded text files**.  
 - Features are extracted using Kaldi’s standard preprocessing pipeline (MFCC, CMVN, i-vectors).  
 - The dataset combines **publicly available Lithuanian speech data** (Common Voice) with **custom expert-recorded domain-specific speech**.
 
+---
 
 # Demonstration of an End-to-End AI Solution using Gemini API
 ### Master Thesis: *Subject Matter Language Recognition Using Training*
