@@ -30,11 +30,9 @@ Eugenijus-ASR/
 │   ├── (Sequence) diagrama.png
 │   └── README.md                      # Paaiškinimas, ką vaizduoja diagramos
 │
-├── 1.5 Demonstration of an End-to-End AI Solution using Gemini API/
-│   └── 1.5_description.md            # Colab aprašas
+├── 1.5 Demonstration of an End-to-End AI Solution using Gemini API/       # Colab dokumentas 
 │
-├── 1.6 Retrieval-Augmented Generation (RAG) Extension/
-│   └── 1.6_description.md            # RAG aprašas
+├── 1.6 Retrieval-Augmented Generation (RAG) Extension/                    # Colab dokumentas
 │
 └── README.md                          # Bendras projekto aprašas
 ```
