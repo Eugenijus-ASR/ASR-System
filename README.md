@@ -57,3 +57,17 @@ README.md        # Documentation (this file)
 - Features are extracted using Kaldi’s standard preprocessing pipeline (MFCC, CMVN, i-vectors).  
 - The dataset combines **publicly available Lithuanian speech data** (Common Voice) with **custom expert-recorded domain-specific speech**.
 
+
+# Demonstration of an End-to-End AI Solution using Gemini API
+### Master Thesis: *Subject Matter Language Recognition Using Training*
+
+This notebook demonstrates a fully operational end-to-end AI system based on the designed prompt-engineered agent developed in Lab 1.4.  
+The system executes domain-specific Lithuanian speech-to-text transcription prompts using the Gemini API.
+
+Key objectives of this notebook:
+- Load Gemini API key securely using Colab Secrets  
+- Execute zero-shot and few-shot prompt examples  
+- Demonstrate the entire pipeline (data understanding → reasoning → inference → output generation)  
+- Document the behaviour of the AI system as an end-to-end agent  
+- Provide reflection and link notebook to GitHub repository
+
