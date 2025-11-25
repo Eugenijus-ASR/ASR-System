@@ -47,3 +47,13 @@ Sprendinį sudaro šie pagrindiniai komponentai:
     - Gydytojas peržiūri, redaguoja ir patvirtina generuotą tekstą.
     - Tekstas išsaugomas į E. sveikatos sistemą.    
 
+    6. Administraciniai procesai
+    - IT administratorius stebi kokybę.
+    - Atnaujina domeno pavyzdžių rinkinį (X,Y parosinių įrašų DB).
+    - Atlieka modelių versijavimą ir architektūros priežiūrą. 
+
+# 1.3.3 UML diagramos
+
+Toliau pateikiamos UML diagramos, kurios parodo, kaip GAI integruojamas į sistemą.
+
+A. Use case diagrama
