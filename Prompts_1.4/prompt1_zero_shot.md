@@ -28,7 +28,7 @@ A new Lithuanian audio file `new_case.wav` contains the following expert dictati
 
 ```json
 {
-  "transcription": "
+  
 ---
 
 ## `/prompts/prompt2_few_shot.md`
@@ -95,5 +95,6 @@ It contains a short expert dictation related to system maintenance:
 {
   "transcription": "..."
 }
-"
+
 }
+
