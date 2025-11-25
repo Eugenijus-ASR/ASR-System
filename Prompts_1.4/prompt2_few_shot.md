@@ -37,10 +37,11 @@ Use these examples to understand the style, domain, and sentence structure befor
 ### Example 4
 **X₄:** Audio file: `004.wav` – Lithuanian sentence about an IT system component.  
 **y₄:** Duomenų bazės serveris sėkmingai paleistas.
-
+```
 ### Example 5
 **X₅:** Audio file: `005.wav` – Lithuanian sentence about an event in an information system.  
 **y₅:** Įvykis užregistruotas informacinėje sistemoje.
+```
 
 ---
 
@@ -59,4 +60,5 @@ It contains a short expert dictation related to system maintenance:
 {
   "transcription": "..."
 }
+
 
