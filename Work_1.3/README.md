@@ -61,16 +61,29 @@ A. Use case diagrama
 Aprašymas
 
 Naudotojai:
-    Gydytojas
-    Medicinos sekretorė
-    IT administratorius
+    - Gydytojas
+    - Medicinos sekretorė
+    - IT administratorius
 
 Pagrindiniai GAI scenarijai:
-    LLM pagerintos transkripcijos generavimas
-    Domeno pavyzdžių paieška ChromaDB
-    Automatizuotas RAG prompto sudarymas
-    Modelių priežiūra ir kokybės monitoringas
+    - LLM pagerintos transkripcijos generavimas
+    - Domeno pavyzdžių paieška ChromaDB
+    - Automatizuotas RAG prompto sudarymas
+    - Modelių priežiūra ir kokybės monitoringas
 ```
+B. Sistemos komponentų diagrama
+```
+Aprašymas
+
+Diagrama parodo:
+    - Kliento aplinką (gydytojo UI)
+    - ASR pipeline komponentus
+    - Vektorių DB
+    - Domeno duomenų rinkinį
+    - GAI teksto generavimo modulį (Gemini API)
+    - Integraciją su EHR sistemomis
+```
+
 
 
 
