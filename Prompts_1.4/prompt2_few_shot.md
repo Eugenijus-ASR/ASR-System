@@ -69,8 +69,5 @@ It contains a short expert dictation related to system maintenance:
 {
   "transcription": "..."
 }
-
-
-
-
-
+```
+Replace ... with the best Lithuanian transcription y₆ for this new audio, using patterns learned from the previous (X, y) pairs and your end-to-end ASR pipeline.
