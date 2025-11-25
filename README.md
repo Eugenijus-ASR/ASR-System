@@ -57,6 +57,22 @@ README.md        # Documentation (this file)
 
 ---
 
+# UML-Based System Design and GAI Integration (Lab 1.3)
+### Magistro darbas: „Dalykinės kalbos atpažinimas naudojant apmokymą“
+
+Šiame etape buvo sukurta išsami dalykinės kalbos ASR sistemos architektūra ir su UML diagramomis pavaizduota, kaip generatyvinis dirbtinis intelektas (GAI) integruojamas į siūlomą sprendimą. 
+Darbe buvo identifikuoti pagrindiniai naudotojai, sistemos komponentai ir jų tarpusavio sąveikos.
+
+Pagrindiniai šio etapo rezultatai:
+- Sukurta Use Case diagrama, parodanti pagrindinius sistemos naudotojus (gydytoją, medicinos sekretorę, IT administratorių) ir jų sąveiką su ASR sistema.
+- Parengta komponentų diagrama, vaizduojanti visą architektūrą: garso apdorojimą, Kaldi ASR, RAG orkestratorių, vektorių duomenų bazę (ChromaDB) ir GAI (Gemini API) modulį.
+- Nubraižyta sekos diagrama, pademonstruojanti pilną procesą: nuo garso įvedimo → pirminės transkripcijos → RAG paieškos → LLM patobulinimo → galutinio teksto išsaugojimo E. sveikatos sistemoje.
+- Atliktas sistemos elgsenos modeliavimas, parodant GAI vaidmenį transkripcijos tikslumo gerinime.
+
+Ši UML analizė suformavo aiškų techninį pagrindą tolesniems etapams ir leido tiksliai suplanuoti end-to-end GAI integraciją, kuri vėliau įgyvendinama 1.4–1.6 laboratoriniuose darbuose.
+
+---
+
 # Demonstration of an End-to-End AI Solution using Gemini API
 ### Magistro darbas: „Dalykinės kalbos atpažinimas naudojant apmokymą“
 
