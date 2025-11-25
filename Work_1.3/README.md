@@ -57,17 +57,18 @@ Sprendinį sudaro šie pagrindiniai komponentai:
 Toliau pateikiamos UML diagramos, kurios parodo, kaip GAI integruojamas į sistemą.
 
 A. Use case diagrama
-```dif
+```
 Aprašymas
 Naudotojai:
-Gydytojas
-Medicinos sekretorė
-IT administratorius
+    Gydytojas
+    Medicinos sekretorė
+    IT administratorius
 Pagrindiniai GAI scenarijai:
-LLM pagerintos transkripcijos generavimas
-Domeno pavyzdžių paieška ChromaDB
-Automatizuotas RAG prompto sudarymas
-Modelių priežiūra ir kokybės monitoringas
+    LLM pagerintos transkripcijos generavimas
+    Domeno pavyzdžių paieška ChromaDB
+    Automatizuotas RAG prompto sudarymas
+    Modelių priežiūra ir kokybės monitoringas
 ```
+
 
 
