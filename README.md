@@ -27,27 +27,27 @@ README.md        # Documentation (this file)
 
 ---
 
-## (X, y) duomenų porų pavyzdžiai (Lab 1.2)
+## (X, Y) duomenų porų pavyzdžiai (Lab 1.2)
 
 **Pavyzdys 1**  
 - **X:** `audio/001.wav` → MFCC požymių seka  
-- **y:** `"Paciento kraujospūdis yra normalus"`
+- **Y:** `"Paciento kraujospūdis yra normalus"`
 
 **Pavyzdys 2**  
 - **X:** `audio/002.wav` → MFCC + i-vektorius (kalbėtojo adaptacijai)  
-- **y:** `"Atlikta kompiuterinė tomografija"`
+- **Y:** `"Atlikta kompiuterinė tomografija"`
 
 **Pavyzdys 3**  
 - **X:** `audio/003.wav` → MFCC + leksikos žemėlapis iš domeno žodyno  
-- **y:** `"Pacientui paskirta intraveninė terapija"`
+- **Y:** `"Pacientui paskirta intraveninė terapija"`
 
 **Pavyzdys 4**  
 - **X:** `audio/004.wav` → Akustiniai požymiai (MFCC, CMVN normalizuoti)  
-- **y:** `"Duomenų bazės serveris sėkmingai paleistas"`
+- **Y:** `"Duomenų bazės serveris sėkmingai paleistas"`
 
 **Pavyzdys 5**  
 - **X:** `audio/005.wav` → Požymių seka, reprezentuojanti kalbos signalą  
-- **y:** `"Įvykis užregistruotas informacinėje sistemoje"`
+- **Y:** `"Įvykis užregistruotas informacinėje sistemoje"`
 
 ## Pastabos
 - Visi garso įrašai saugomi mono, 16 kHz WAV formatu.**.  
