@@ -83,6 +83,42 @@ Diagrama parodo:
     - GAI teksto generavimo modulį (Gemini API)
     - Integraciją su EHR sistemomis
 ```
+C. Sekos diagrama
+```
+Aprašymas
+
+Sistema vaizduojama kaip procesų seka:
+    - Garso srautas patenka į UI
+    - Garso apdorojimas → Kaldi ASR
+    - RAG orkestratorius suformuoja užklausą
+    - ChromaDB grąžina pavyzdžius
+    - Gemini LLM generuoja patobulintą tekstą
+    - Gydytojas validuoja
+    - Išvada įkeliama į EHR sistemą
+```
+# 1.3.4 GAI integracijos vertė
+
+Integravus GAI (LLM) į ASR sprendimą pasiekiami šie privalumai:
+
+- Dramatiškai pagerinta transkripcijos kokybė (nuo žodinio iki mediciniškai tikslaus).
+
+- Kontekstinis supratimas per RAG (specifinės frazės, terminai, simptomai).
+
+- Sutrumpintas darbo laikas gydytojams (diktuoja → patvirtina).
+
+- Sumažėja klaidų ir netikslių įrašų E. sveikatos sistemoje.
+
+- Skaidrumas ir atsekamumas, nes išsaugomi domeno pavyzdžiai (X,Y).
+
+- Sistemos pritaikomumas skirtingoms medicinos specializacijoms.
+
+# 1.3.5 Santrauka
+
+Šiame skyriuje aprašyta įmonė, sistemos architektūra ir GAI integracijos modelis. Pateiktos UML use-case, komponentų ir sekų diagramos tiksliai atspindi, kaip GAI (Gemini LLM) ir RAG mechanizmas praturtina tradicinį Kaldi pagrindu veikiantį ASR pipeline.
+
+Šis sprendimas gali būti panaudotas realiose gydymo įstaigose, užtikrinant didesnį tikslumą, sumažintą administracinį darbo krūvį ir modernesnius skaitmeninius procesus.
+
+
 
 
 
