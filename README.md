@@ -27,7 +27,7 @@ README.md        # Documentation (this file)
 
 ---
 
-## (X, y) duomenų porų pavyzdžiai
+## (X, y) duomenų porų pavyzdžiai (Lab 1.2)
 
 **Pavyzdys 1**  
 - **X:** `audio/001.wav` → MFCC požymių seka  
@@ -73,7 +73,7 @@ Pagrindiniai šio etapo rezultatai:
 
 ---
 
-# Demonstration of an End-to-End AI Solution using Gemini API
+# Demonstration of an End-to-End AI Solution using Gemini API (Lab 1.4)
 ### Magistro darbas: „Dalykinės kalbos atpažinimas naudojant apmokymą“
 
 Šiame Colab aplanke demonstruojama pilnai veikianti end-to-end AI sistema, sukurta remiantis 1.4 laboratorinio darbo promptų inžinerija.  
