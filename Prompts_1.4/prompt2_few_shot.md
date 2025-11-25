@@ -23,26 +23,33 @@ Use these examples to understand the style, domain, and sentence structure befor
 ## Few-shot examples (X, y)
 
 ### Example 1
+```
 **X₁:** Audio file: `001.wav` – short Lithuanian sentence about the patient’s blood pressure.  
 **y₁:** Paciento kraujospūdis yra normalus.
+```
 
 ### Example 2
+```
 **X₂:** Audio file: `002.wav` – Lithuanian sentence about an imaging procedure.  
 **y₂:** Atlikta kompiuterinė tomografija.
+```
 
 ### Example 3
+```
 **X₃:** Audio file: `003.wav` – Lithuanian sentence about prescribed treatment.  
 **y₃:** Pacientui paskirta intraveninė terapija.
+```
 
 ### Example 4
+```
 **X₄:** Audio file: `004.wav` – Lithuanian sentence about an IT system component.  
 **y₄:** Duomenų bazės serveris sėkmingai paleistas.
 ```
-{
+
 ### Example 5
+```
 **X₅:** Audio file: `005.wav` – Lithuanian sentence about an event in an information system.  
 **y₅:** Įvykis užregistruotas informacinėje sistemoje.
-}
 ```
 
 ---
@@ -62,6 +69,7 @@ It contains a short expert dictation related to system maintenance:
 {
   "transcription": "..."
 }
+
 
 
 
