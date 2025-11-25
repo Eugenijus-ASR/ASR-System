@@ -124,3 +124,5 @@ Pagrindiniai šio etapo rezultatai:
 - Atliktas rezultato palyginimas su zero-shot metodu ir parodyta, kad RAG metodas padidina stabilumą bei tikslumą, ypač medicininiuose tekstuose.
 
 Ši užduotis užbaigia end-to-end ASR + GAI architektūros kūrimą ir parodo, kaip realaus pasaulio duomenų kontekstas gali būti įtrauktas į generatyvinio DI sprendimo veikimą, ženkliai pagerinant jo domeninę kompetenciją.
+
+---
