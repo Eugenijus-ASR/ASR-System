@@ -15,7 +15,7 @@ Duomenys organizuoti į prižiūrimus (supervised) duomenų poras (X, y), kur:
 ```
 Eugenijus-ASR/
 │
-├── Data_X_Y/                          # Garso įrašai, transkripcijos
+├── Data_X_Y_1.2/                          # Garso įrašai, transkripcijos
 │   ├── audio/
 │   └── text/ 
 │
