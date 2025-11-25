@@ -14,14 +14,21 @@ The data is organized into supervised pairs **(X, y)**, where:
 ## Directory Structure
 
 Data_X_Y\
+
 │
+
 ├── audio\       # Raw audio recordings (.wav files)
+
 │
+
 ├── text\        # Reference transcriptions (.txt files)
+
 │
 
 features\        # Pre-computed features (MFCC, i-vectors)
+
 prompts\         # Prompt scripts for model training/testing
+
 README.md        # Documentation (this file)
 
 ---
