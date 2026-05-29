@@ -1,3 +1,29 @@
+# Išsamūs faktorinio eksperimento rezultatai
+
+Žemiau esančioje lentelėje pateikiamas WER (angl. Word Error Rate) rodiklio kitimas priklausomai nuo taikomų sistemos adaptacijų.  
+Sistemos konfigūracija	WER (%)	
+
+Įtaka tikslumui  
+Bazinė sistema (be adaptacijų)	~55%	
+
+Pradinis taškas su dideliu klaidų lygiu.  
++ Wikipedia tekstynas	~23,28%	
+
+Sumažino klaidų lygį 32,23 proc. punkto.  
++ Medicininis tekstynas (Ligos.lt)	23,28%	
+
+Padėjo kompensuoti 60% srities neatitikimo.  
++ SAT (adaptyvusis mokymas)	Galutinis	
+
+Užtikrino geresnį pritaikymą eksperto balsui.
+
+
+
+
+
+
+
+
 # ASR-System
 Lithuanian language recognition using Kaldi system / Lietuvių kalbos atpažinimas naudojant Kaldi sistemą
 
