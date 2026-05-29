@@ -17,7 +17,13 @@ Padėjo kompensuoti 60% srities neatitikimo.
 
 Užtikrino geresnį pritaikymą eksperto balsui.
 
+# ASR sistemos modeliavimo schemos (BPMN)
 
+Priede pateikiama vizualizuota sistemos veikimo logika, sukurta naudojant BPMN standartą.  
+
+    Mokymo fazės modelis: Apima akustinių ir kalbos modelių rengimą, i-vektorių išskyrimą bei HCLG grafų generavimą.  
+
+    Išvedimo (inferencijos) modelis: Vizualizuoja realaus laiko garso apdorojimą, dekodavimą ir galutinio teksto pateikimą vartotojui.
 
 
 
