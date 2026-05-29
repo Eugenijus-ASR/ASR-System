@@ -1,0 +1,277 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/my_train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/my_train/wav_my_train.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/my_train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/projects/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/raw_mfcc_my_train.1.ark,/home/projects/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/raw_mfcc_my_train.1.scp 
+# Started at Sat May  9 21:01:18 EEST 2026
+#
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/my_train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/my_train/wav_my_train.1.scp ark:- 
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/my_train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/projects/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/raw_mfcc_my_train.1.ark,/home/projects/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/raw_mfcc_my_train.1.scp 
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_001
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_002
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_003
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_004
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_005
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_006
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_007
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_008
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_009
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_010
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_011
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_012
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_013
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_014
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_015
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_016
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_017
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_018
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_019
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_020
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_021
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_022
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_023
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_024
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_025
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_026
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_027
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_028
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_029
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_030
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_031
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_032
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_033
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_034
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_035
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_036
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_037
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_038
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_039
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_040
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_041
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_042
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_043
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_044
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_045
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_046
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_047
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_048
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_049
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_050
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_051
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_052
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_053
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_054
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_055
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_056
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_057
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_058
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_059
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_060
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_061
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_062
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_063
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_064
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_065
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_066
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_067
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_068
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_069
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_070
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_071
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_072
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_073
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_074
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_075
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_076
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_077
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_078
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_079
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_080
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_081
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_082
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_083
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_084
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_085
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_086
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_087
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_088
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_089
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_090
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_091
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_092
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_093
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_094
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_095
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_096
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_097
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_098
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_099
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_100
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_101
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_102
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_103
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_104
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_105
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_106
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_107
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_108
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_109
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_110
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_111
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_112
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_113
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_114
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_115
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_116
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_117
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_118
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_119
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_120
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_121
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_122
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_123
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_124
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_125
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_126
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_127
+VLOG[1] (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:249) Read in RIFF chunk size: 4294967295, data chunk size: 4294967295. Assume 'stream mode' (reading data to EOF).
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key eugen_irasas_128
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:185)  Done 128 out of 128 utterances.
+LOG (copy-feats[5.5.1182~1-e02e3]:main():copy-feats.cc:143) Copied 128 feature matrices.
+# Accounting: time=13 threads=1
+# Ended (code 0) at Sat May  9 21:01:31 EEST 2026, elapsed time 13 seconds

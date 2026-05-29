@@ -1,0 +1,1175 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.9 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.9.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.9 --compress=true ark:- ark,scp:/root/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/raw_mfcc_test.9.ark,/root/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/raw_mfcc_test.9.scp 
+# Started at Wed Jan 14 11:25:32 EET 2026
+#
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.9 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.9.scp ark:- 
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.9 --compress=true ark:- ark,scp:/root/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/raw_mfcc_test.9.ark,/root/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/raw_mfcc_test.9.scp 
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 192384 bytes of wave data, but read only 191232 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29549538
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 114048 bytes of wave data, but read only 112896 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29549573
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 112896 bytes of wave data, but read only 111744 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29549575
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 125568 bytes of wave data, but read only 124416 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29549578
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 133632 bytes of wave data, but read only 132480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29549579
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 117504 bytes of wave data, but read only 116352 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29800272
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29800313
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 164736 bytes of wave data, but read only 163584 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29800314
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 200448 bytes of wave data, but read only 199296 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_29800315
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 161280 bytes of wave data, but read only 160128 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432955
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 161280 bytes of wave data, but read only 160128 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432956
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 228096 bytes of wave data, but read only 226944 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432957
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432958
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 161280 bytes of wave data, but read only 160128 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432959
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 202752 bytes of wave data, but read only 201600 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432960
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 185472 bytes of wave data, but read only 184320 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432961
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 185472 bytes of wave data, but read only 184320 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432962
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 193536 bytes of wave data, but read only 192384 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432963
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 191232 bytes of wave data, but read only 190080 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432964
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 191232 bytes of wave data, but read only 190080 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432970
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 178560 bytes of wave data, but read only 177408 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432971
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 224640 bytes of wave data, but read only 223488 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432972
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 274176 bytes of wave data, but read only 273024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432973
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 222336 bytes of wave data, but read only 221184 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432974
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 289152 bytes of wave data, but read only 288000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432985
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 222336 bytes of wave data, but read only 221184 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432986
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 266112 bytes of wave data, but read only 264960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432987
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 133632 bytes of wave data, but read only 132480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432988
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 331776 bytes of wave data, but read only 330624 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30432989
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 256896 bytes of wave data, but read only 255744 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433011
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 164736 bytes of wave data, but read only 163584 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433012
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 164736 bytes of wave data, but read only 163584 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433013
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 184320 bytes of wave data, but read only 183168 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433014
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 233856 bytes of wave data, but read only 232704 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433015
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 214272 bytes of wave data, but read only 213120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433016
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 218880 bytes of wave data, but read only 217728 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433017
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 207360 bytes of wave data, but read only 206208 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433018
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433019
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30433020
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 228096 bytes of wave data, but read only 226944 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30506465
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 153216 bytes of wave data, but read only 152064 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30506466
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 199296 bytes of wave data, but read only 198144 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30506467
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 167040 bytes of wave data, but read only 165888 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30506468
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30506469
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 124416 bytes of wave data, but read only 123264 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30506470
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 122112 bytes of wave data, but read only 120960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30506472
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 185472 bytes of wave data, but read only 184320 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30506473
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 187776 bytes of wave data, but read only 186624 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724476
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 173952 bytes of wave data, but read only 172800 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724477
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 228096 bytes of wave data, but read only 226944 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724478
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 185472 bytes of wave data, but read only 184320 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724479
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 150912 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724480
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724486
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724487
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724488
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 202752 bytes of wave data, but read only 201600 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724489
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724491
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 170496 bytes of wave data, but read only 169344 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724492
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 220032 bytes of wave data, but read only 218880 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724493
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 168192 bytes of wave data, but read only 167040 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724494
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 126720 bytes of wave data, but read only 125568 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_30724495
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 291456 bytes of wave data, but read only 290304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375163
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375164
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 222336 bytes of wave data, but read only 221184 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375165
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 210816 bytes of wave data, but read only 209664 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375166
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 215424 bytes of wave data, but read only 214272 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375167
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 123264 bytes of wave data, but read only 122112 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375188
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 119808 bytes of wave data, but read only 118656 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375189
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 152064 bytes of wave data, but read only 150912 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375190
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 135936 bytes of wave data, but read only 134784 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375191
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 132480 bytes of wave data, but read only 131328 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375192
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 135936 bytes of wave data, but read only 134784 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375193
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 120960 bytes of wave data, but read only 119808 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375194
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 175104 bytes of wave data, but read only 173952 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375196
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 157824 bytes of wave data, but read only 156672 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375198
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 224640 bytes of wave data, but read only 223488 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375199
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 131328 bytes of wave data, but read only 130176 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375208
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 134784 bytes of wave data, but read only 133632 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375209
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 114048 bytes of wave data, but read only 112896 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375210
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 163584 bytes of wave data, but read only 162432 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375211
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 168192 bytes of wave data, but read only 167040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31375212
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 200448 bytes of wave data, but read only 199296 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31858062
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 146304 bytes of wave data, but read only 145152 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31858063
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 167040 bytes of wave data, but read only 165888 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31858064
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 213120 bytes of wave data, but read only 211968 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31858066
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 237312 bytes of wave data, but read only 236160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_31858067
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 170496 bytes of wave data, but read only 169344 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32150740
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 92160 bytes of wave data, but read only 91008 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32150741
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 126720 bytes of wave data, but read only 125568 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32150742
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 135936 bytes of wave data, but read only 134784 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32150743
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32150744
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 277632 bytes of wave data, but read only 276480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32305839
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 247680 bytes of wave data, but read only 246528 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32305841
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 225792 bytes of wave data, but read only 224640 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32305842
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 120960 bytes of wave data, but read only 119808 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32433689
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 196992 bytes of wave data, but read only 195840 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32433690
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 80640 bytes of wave data, but read only 79488 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32433692
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 132480 bytes of wave data, but read only 131328 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32433693
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 120960 bytes of wave data, but read only 119808 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845105
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 92160 bytes of wave data, but read only 91008 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845106
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845107
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 135936 bytes of wave data, but read only 134784 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845108
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 133632 bytes of wave data, but read only 132480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845554
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845555
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845558
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 153216 bytes of wave data, but read only 152064 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845560
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 149760 bytes of wave data, but read only 148608 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845562
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 168192 bytes of wave data, but read only 167040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845622
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845624
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 210816 bytes of wave data, but read only 209664 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845626
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845628
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 118656 bytes of wave data, but read only 117504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32845629
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 129024 bytes of wave data, but read only 127872 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32920111
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32920114
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 209664 bytes of wave data, but read only 208512 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32920117
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 190080 bytes of wave data, but read only 188928 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32920120
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 95616 bytes of wave data, but read only 94464 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32920166
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 237312 bytes of wave data, but read only 236160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32999311
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 99072 bytes of wave data, but read only 97920 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32999312
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 112896 bytes of wave data, but read only 111744 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32999313
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 126720 bytes of wave data, but read only 125568 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32999314
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 107136 bytes of wave data, but read only 105984 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_32999315
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566687
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 137088 bytes of wave data, but read only 135936 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566688
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566689
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 142848 bytes of wave data, but read only 141696 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566690
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 122112 bytes of wave data, but read only 120960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566691
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566722
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 215424 bytes of wave data, but read only 214272 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566723
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 117504 bytes of wave data, but read only 116352 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566724
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 167040 bytes of wave data, but read only 165888 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566725
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 158976 bytes of wave data, but read only 157824 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566742
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566743
+sox WARN rate: rate clipped 1 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 185472 bytes of wave data, but read only 184320 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566744
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 125568 bytes of wave data, but read only 124416 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566745
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 139392 bytes of wave data, but read only 138240 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566746
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 148608 bytes of wave data, but read only 147456 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566753
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 114048 bytes of wave data, but read only 112896 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566754
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 150912 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566756
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 102528 bytes of wave data, but read only 101376 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566757
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566766
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 107136 bytes of wave data, but read only 105984 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566767
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 154368 bytes of wave data, but read only 153216 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566768
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 117504 bytes of wave data, but read only 116352 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566770
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 139392 bytes of wave data, but read only 138240 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566771
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 225792 bytes of wave data, but read only 224640 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566772
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 115200 bytes of wave data, but read only 114048 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566773
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 146304 bytes of wave data, but read only 145152 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566774
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 97920 bytes of wave data, but read only 96768 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566775
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 115200 bytes of wave data, but read only 114048 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566776
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 180864 bytes of wave data, but read only 179712 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566777
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566788
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566789
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 118656 bytes of wave data, but read only 117504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566790
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 129024 bytes of wave data, but read only 127872 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566791
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 138240 bytes of wave data, but read only 137088 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566792
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 101376 bytes of wave data, but read only 100224 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566808
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566809
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566810
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 255744 bytes of wave data, but read only 254592 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 160 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566811
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 173952 bytes of wave data, but read only 172800 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566812
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566818
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 123264 bytes of wave data, but read only 122112 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566819
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 95616 bytes of wave data, but read only 94464 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566820
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 89856 bytes of wave data, but read only 88704 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566821
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 102528 bytes of wave data, but read only 101376 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566822
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 115200 bytes of wave data, but read only 114048 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566843
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 125568 bytes of wave data, but read only 124416 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566845
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 94464 bytes of wave data, but read only 93312 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566846
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 213120 bytes of wave data, but read only 211968 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 170 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566847
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 131328 bytes of wave data, but read only 130176 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566848
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 122112 bytes of wave data, but read only 120960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566849
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566850
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 132480 bytes of wave data, but read only 131328 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566851
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 100224 bytes of wave data, but read only 99072 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566852
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 94464 bytes of wave data, but read only 93312 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566858
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 101376 bytes of wave data, but read only 100224 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566859
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 129024 bytes of wave data, but read only 127872 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566860
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 135936 bytes of wave data, but read only 134784 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566861
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 180 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33566862
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606837
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 120960 bytes of wave data, but read only 119808 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606838
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 161280 bytes of wave data, but read only 160128 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606839
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 124416 bytes of wave data, but read only 123264 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606840
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606841
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 164736 bytes of wave data, but read only 163584 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606887
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 182016 bytes of wave data, but read only 180864 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606888
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 195840 bytes of wave data, but read only 194688 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606889
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 150912 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606890
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 190 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33606891
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 135936 bytes of wave data, but read only 134784 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33607092
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 164736 bytes of wave data, but read only 163584 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33607093
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 115200 bytes of wave data, but read only 114048 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33607095
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 220032 bytes of wave data, but read only 218880 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33607097
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 112896 bytes of wave data, but read only 111744 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33607098
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33867893
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33867895
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 149760 bytes of wave data, but read only 148608 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33867897
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33867898
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 138240 bytes of wave data, but read only 137088 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 200 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868014
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868015
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 191232 bytes of wave data, but read only 190080 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868016
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 208512 bytes of wave data, but read only 207360 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868017
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 153216 bytes of wave data, but read only 152064 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868018
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 222336 bytes of wave data, but read only 221184 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868045
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 167040 bytes of wave data, but read only 165888 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868046
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 126720 bytes of wave data, but read only 125568 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868047
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 184320 bytes of wave data, but read only 183168 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868048
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 132480 bytes of wave data, but read only 131328 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868049
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 210 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868085
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 99072 bytes of wave data, but read only 97920 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868086
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868087
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868088
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868089
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868100
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868101
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 115200 bytes of wave data, but read only 114048 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868102
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 133632 bytes of wave data, but read only 132480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868103
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868104
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 132480 bytes of wave data, but read only 131328 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 220 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868182
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 224640 bytes of wave data, but read only 223488 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868184
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 243072 bytes of wave data, but read only 241920 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868186
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 190080 bytes of wave data, but read only 188928 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868188
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 210816 bytes of wave data, but read only 209664 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_33868192
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 235008 bytes of wave data, but read only 233856 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_34152967
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 195840 bytes of wave data, but read only 194688 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_34152968
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_34152969
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 163584 bytes of wave data, but read only 162432 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_34152970
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 171648 bytes of wave data, but read only 170496 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_34152971
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 205056 bytes of wave data, but read only 203904 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 230 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664771
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 193536 bytes of wave data, but read only 192384 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664772
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 239616 bytes of wave data, but read only 238464 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664773
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664774
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 228096 bytes of wave data, but read only 226944 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664775
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664828
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 241920 bytes of wave data, but read only 240768 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664829
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 190080 bytes of wave data, but read only 188928 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664830
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664831
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 224640 bytes of wave data, but read only 223488 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_35664832
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 213120 bytes of wave data, but read only 211968 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 240 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413274
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 162432 bytes of wave data, but read only 161280 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413275
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413276
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 116352 bytes of wave data, but read only 115200 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413277
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 89856 bytes of wave data, but read only 88704 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413278
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 126720 bytes of wave data, but read only 125568 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413286
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 122112 bytes of wave data, but read only 120960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413287
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 124416 bytes of wave data, but read only 123264 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413288
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413290
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 185472 bytes of wave data, but read only 184320 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413501
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 95616 bytes of wave data, but read only 94464 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 250 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413502
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413504
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 139392 bytes of wave data, but read only 138240 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36413505
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 201600 bytes of wave data, but read only 200448 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36489091
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 107136 bytes of wave data, but read only 105984 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36489092
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 120960 bytes of wave data, but read only 119808 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36489093
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 178560 bytes of wave data, but read only 177408 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36489094
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_36489095
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 216576 bytes of wave data, but read only 215424 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032264
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 170496 bytes of wave data, but read only 169344 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032265
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 176256 bytes of wave data, but read only 175104 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 260 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032266
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 247680 bytes of wave data, but read only 246528 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032267
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 208512 bytes of wave data, but read only 207360 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032268
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 182016 bytes of wave data, but read only 180864 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032269
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 213120 bytes of wave data, but read only 211968 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032270
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 187776 bytes of wave data, but read only 186624 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032271
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 168192 bytes of wave data, but read only 167040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032272
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 196992 bytes of wave data, but read only 195840 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37032273
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 179712 bytes of wave data, but read only 178560 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036269
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036270
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 210816 bytes of wave data, but read only 209664 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 270 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036271
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 120960 bytes of wave data, but read only 119808 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036272
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 161280 bytes of wave data, but read only 160128 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036273
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 179712 bytes of wave data, but read only 178560 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036414
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 124416 bytes of wave data, but read only 123264 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036415
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 139392 bytes of wave data, but read only 138240 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036416
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 231552 bytes of wave data, but read only 230400 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036417
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 243072 bytes of wave data, but read only 241920 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37036418
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 137088 bytes of wave data, but read only 135936 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083227
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 139392 bytes of wave data, but read only 138240 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083228
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 85248 bytes of wave data, but read only 84096 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 280 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083229
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 135936 bytes of wave data, but read only 134784 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083230
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083231
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 96768 bytes of wave data, but read only 95616 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083317
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 170496 bytes of wave data, but read only 169344 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083318
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 150912 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083319
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 154368 bytes of wave data, but read only 153216 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083320
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 105984 bytes of wave data, but read only 104832 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37083322
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 224640 bytes of wave data, but read only 223488 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385376
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385377
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 164736 bytes of wave data, but read only 163584 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 290 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385378
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 164736 bytes of wave data, but read only 163584 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385380
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 245376 bytes of wave data, but read only 244224 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385382
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 208512 bytes of wave data, but read only 207360 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385386
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 104832 bytes of wave data, but read only 103680 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385387
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385388
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385389
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 190080 bytes of wave data, but read only 188928 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385390
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385391
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 218880 bytes of wave data, but read only 217728 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385393
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 196992 bytes of wave data, but read only 195840 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 300 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385394
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385395
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 220032 bytes of wave data, but read only 218880 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385402
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385403
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 210816 bytes of wave data, but read only 209664 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385404
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 216576 bytes of wave data, but read only 215424 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385405
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385406
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 214272 bytes of wave data, but read only 213120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385407
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 168192 bytes of wave data, but read only 167040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385408
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 161280 bytes of wave data, but read only 160128 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385409
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 135936 bytes of wave data, but read only 134784 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 310 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385410
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 153216 bytes of wave data, but read only 152064 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385416
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 218880 bytes of wave data, but read only 217728 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385417
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385418
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 118656 bytes of wave data, but read only 117504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385419
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 216576 bytes of wave data, but read only 215424 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385420
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385426
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 126720 bytes of wave data, but read only 125568 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385427
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 218880 bytes of wave data, but read only 217728 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385428
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 161280 bytes of wave data, but read only 160128 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385429
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 101376 bytes of wave data, but read only 100224 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 320 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385436
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385438
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385439
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37385440
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 95616 bytes of wave data, but read only 94464 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37469401
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37469402
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 153216 bytes of wave data, but read only 152064 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37469406
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 133632 bytes of wave data, but read only 132480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519639
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 122112 bytes of wave data, but read only 120960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519640
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 184320 bytes of wave data, but read only 183168 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519641
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 330 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519642
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 222336 bytes of wave data, but read only 221184 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519643
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 150912 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519655
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519656
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 259200 bytes of wave data, but read only 258048 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519657
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519658
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37519659
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 238464 bytes of wave data, but read only 237312 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37528876
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 126720 bytes of wave data, but read only 125568 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37528878
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 282240 bytes of wave data, but read only 281088 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37528879
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 274176 bytes of wave data, but read only 273024 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 340 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37528880
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 223488 bytes of wave data, but read only 222336 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612389
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 134784 bytes of wave data, but read only 133632 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612390
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 191232 bytes of wave data, but read only 190080 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612391
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 95616 bytes of wave data, but read only 94464 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612396
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 167040 bytes of wave data, but read only 165888 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612398
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 138240 bytes of wave data, but read only 137088 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612399
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 91008 bytes of wave data, but read only 89856 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612427
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 150912 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612431
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 73728 bytes of wave data, but read only 72576 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612432
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 116352 bytes of wave data, but read only 115200 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 350 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612433
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 193536 bytes of wave data, but read only 192384 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612435
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 133632 bytes of wave data, but read only 132480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612440
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 97920 bytes of wave data, but read only 96768 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612441
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 116352 bytes of wave data, but read only 115200 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612442
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 67968 bytes of wave data, but read only 66816 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612443
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 84096 bytes of wave data, but read only 82944 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612444
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 91008 bytes of wave data, but read only 89856 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612445
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 70272 bytes of wave data, but read only 69120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612446
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612447
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 78336 bytes of wave data, but read only 77184 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 360 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612452
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 86400 bytes of wave data, but read only 85248 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612454
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 107136 bytes of wave data, but read only 105984 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612455
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 82944 bytes of wave data, but read only 81792 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612456
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612457
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 208512 bytes of wave data, but read only 207360 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612458
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612459
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 119808 bytes of wave data, but read only 118656 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612460
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 176256 bytes of wave data, but read only 175104 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612461
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 70272 bytes of wave data, but read only 69120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612462
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 157824 bytes of wave data, but read only 156672 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 370 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612530
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 99072 bytes of wave data, but read only 97920 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612531
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 95616 bytes of wave data, but read only 94464 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612532
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 69120 bytes of wave data, but read only 67968 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612533
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 188928 bytes of wave data, but read only 187776 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612534
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 167040 bytes of wave data, but read only 165888 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612535
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 117504 bytes of wave data, but read only 116352 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612536
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 205056 bytes of wave data, but read only 203904 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612537
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 114048 bytes of wave data, but read only 112896 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612538
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 101376 bytes of wave data, but read only 100224 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612539
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 85248 bytes of wave data, but read only 84096 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 380 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612540
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 84096 bytes of wave data, but read only 82944 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612541
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 114048 bytes of wave data, but read only 112896 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612542
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612543
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612544
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612595
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 194688 bytes of wave data, but read only 193536 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612596
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 107136 bytes of wave data, but read only 105984 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612597
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612598
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 211968 bytes of wave data, but read only 210816 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612599
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 89856 bytes of wave data, but read only 88704 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 390 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612600
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 125568 bytes of wave data, but read only 124416 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612949
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 129024 bytes of wave data, but read only 127872 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612950
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612951
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 125568 bytes of wave data, but read only 124416 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612952
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 180864 bytes of wave data, but read only 179712 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37612953
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 104832 bytes of wave data, but read only 103680 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37613007
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 91008 bytes of wave data, but read only 89856 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37613013
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 91008 bytes of wave data, but read only 89856 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37613019
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 92160 bytes of wave data, but read only 91008 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37613023
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 400 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618254
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 94464 bytes of wave data, but read only 93312 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618260
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618261
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 209664 bytes of wave data, but read only 208512 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618267
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 120960 bytes of wave data, but read only 119808 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618271
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 153216 bytes of wave data, but read only 152064 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618272
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 138240 bytes of wave data, but read only 137088 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618273
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618279
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 190080 bytes of wave data, but read only 188928 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37618280
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638678
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 140544 bytes of wave data, but read only 139392 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 410 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638679
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 101376 bytes of wave data, but read only 100224 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638680
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 211968 bytes of wave data, but read only 210816 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638681
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 87552 bytes of wave data, but read only 86400 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638687
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 126720 bytes of wave data, but read only 125568 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638688
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 100224 bytes of wave data, but read only 99072 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638689
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 111744 bytes of wave data, but read only 110592 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638690
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 132480 bytes of wave data, but read only 131328 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638691
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 112896 bytes of wave data, but read only 111744 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638692
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 100224 bytes of wave data, but read only 99072 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638693
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 105984 bytes of wave data, but read only 104832 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 420 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638694
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638695
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 70272 bytes of wave data, but read only 69120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638696
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 137088 bytes of wave data, but read only 135936 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638697
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638698
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 123264 bytes of wave data, but read only 122112 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638699
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 91008 bytes of wave data, but read only 89856 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638700
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638701
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 70272 bytes of wave data, but read only 69120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638702
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 240768 bytes of wave data, but read only 239616 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638708
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 80640 bytes of wave data, but read only 79488 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 430 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638714
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 169344 bytes of wave data, but read only 168192 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638715
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 72576 bytes of wave data, but read only 71424 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638716
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 116352 bytes of wave data, but read only 115200 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638717
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 99072 bytes of wave data, but read only 97920 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638718
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638724
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 202752 bytes of wave data, but read only 201600 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638725
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 122112 bytes of wave data, but read only 120960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638726
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 146304 bytes of wave data, but read only 145152 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638727
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37638733
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 142848 bytes of wave data, but read only 141696 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 440 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37639146
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 130176 bytes of wave data, but read only 129024 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37639152
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 156672 bytes of wave data, but read only 155520 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37639153
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 124416 bytes of wave data, but read only 123264 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37639154
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37671249
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 176256 bytes of wave data, but read only 175104 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37671250
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 133632 bytes of wave data, but read only 132480 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37671251
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 193536 bytes of wave data, but read only 192384 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37671252
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37673735
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 120960 bytes of wave data, but read only 119808 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37673736
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 153216 bytes of wave data, but read only 152064 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 450 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37673738
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 150912 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37673739
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 149760 bytes of wave data, but read only 148608 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37673741
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 208512 bytes of wave data, but read only 207360 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37720614
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 195840 bytes of wave data, but read only 194688 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37720615
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 118656 bytes of wave data, but read only 117504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37720618
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 254592 bytes of wave data, but read only 253440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37720619
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 195840 bytes of wave data, but read only 194688 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37720622
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 80640 bytes of wave data, but read only 79488 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740891
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 87552 bytes of wave data, but read only 86400 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740892
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 460 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740893
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 97920 bytes of wave data, but read only 96768 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740894
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 112896 bytes of wave data, but read only 111744 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740895
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 262656 bytes of wave data, but read only 261504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740896
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 109440 bytes of wave data, but read only 108288 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740897
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 116352 bytes of wave data, but read only 115200 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740898
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 78336 bytes of wave data, but read only 77184 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740899
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 118656 bytes of wave data, but read only 117504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37740900
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 266112 bytes of wave data, but read only 264960 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774198
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 195840 bytes of wave data, but read only 194688 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774199
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 222336 bytes of wave data, but read only 221184 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 470 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774201
+sox WARN rate: rate clipped 1 samples; decrease volume?
+sox WARN dither: dither clipped 1 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 129024 bytes of wave data, but read only 127872 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774220
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 182016 bytes of wave data, but read only 180864 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774222
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 182016 bytes of wave data, but read only 180864 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774224
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 115200 bytes of wave data, but read only 114048 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774225
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 210816 bytes of wave data, but read only 209664 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774292
+sox WARN rate: rate clipped 2 samples; decrease volume?
+sox WARN dither: dither clipped 2 samples; decrease volume?
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 230400 bytes of wave data, but read only 229248 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774293
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 161280 bytes of wave data, but read only 160128 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774294
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 188928 bytes of wave data, but read only 187776 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774295
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 165888 bytes of wave data, but read only 164736 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774296
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 160128 bytes of wave data, but read only 158976 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 480 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774337
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 139392 bytes of wave data, but read only 138240 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774338
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 139392 bytes of wave data, but read only 138240 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774339
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 184320 bytes of wave data, but read only 183168 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774340
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37774341
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778742
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 167040 bytes of wave data, but read only 165888 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778743
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 88704 bytes of wave data, but read only 87552 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778744
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 172800 bytes of wave data, but read only 171648 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778745
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 213120 bytes of wave data, but read only 211968 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778746
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 140544 bytes of wave data, but read only 139392 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 490 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778752
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 200448 bytes of wave data, but read only 199296 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778754
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778755
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 177408 bytes of wave data, but read only 176256 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37778756
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 176256 bytes of wave data, but read only 175104 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780920
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 182016 bytes of wave data, but read only 180864 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780921
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 100224 bytes of wave data, but read only 99072 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780922
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 192384 bytes of wave data, but read only 191232 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780923
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 105984 bytes of wave data, but read only 104832 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780924
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 140544 bytes of wave data, but read only 139392 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780925
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 218880 bytes of wave data, but read only 217728 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 500 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780926
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 144000 bytes of wave data, but read only 142848 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780927
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780928
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 187776 bytes of wave data, but read only 186624 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780929
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 137088 bytes of wave data, but read only 135936 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780930
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 124416 bytes of wave data, but read only 123264 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780931
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780932
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 123264 bytes of wave data, but read only 122112 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780933
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 125568 bytes of wave data, but read only 124416 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780934
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 226944 bytes of wave data, but read only 225792 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780935
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 186624 bytes of wave data, but read only 185472 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 510 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780936
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 117504 bytes of wave data, but read only 116352 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780937
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 178560 bytes of wave data, but read only 177408 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780938
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37780939
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 118656 bytes of wave data, but read only 117504 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37789634
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 190080 bytes of wave data, but read only 188928 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37789635
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 168192 bytes of wave data, but read only 167040 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37789636
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 170496 bytes of wave data, but read only 169344 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37789637
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 167040 bytes of wave data, but read only 165888 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37789638
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 182016 bytes of wave data, but read only 180864 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799209
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 222336 bytes of wave data, but read only 221184 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 520 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799210
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 150912 bytes of wave data, but read only 149760 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799211
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 299520 bytes of wave data, but read only 298368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799212
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 145152 bytes of wave data, but read only 144000 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799213
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 214272 bytes of wave data, but read only 213120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799219
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 93312 bytes of wave data, but read only 92160 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799220
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799221
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 149760 bytes of wave data, but read only 148608 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799222
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 153216 bytes of wave data, but read only 152064 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37799223
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 191232 bytes of wave data, but read only 190080 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804980
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 103680 bytes of wave data, but read only 102528 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 530 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804981
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 285696 bytes of wave data, but read only 284544 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804982
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 138240 bytes of wave data, but read only 137088 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804983
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 109440 bytes of wave data, but read only 108288 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804984
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 124416 bytes of wave data, but read only 123264 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804985
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 185472 bytes of wave data, but read only 184320 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804986
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 110592 bytes of wave data, but read only 109440 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804987
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 103680 bytes of wave data, but read only 102528 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804988
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 101376 bytes of wave data, but read only 100224 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37804989
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 164736 bytes of wave data, but read only 163584 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839119
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 178560 bytes of wave data, but read only 177408 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 540 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839120
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 216576 bytes of wave data, but read only 215424 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839121
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 190080 bytes of wave data, but read only 188928 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839122
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839123
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 147456 bytes of wave data, but read only 146304 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839130
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 155520 bytes of wave data, but read only 154368 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839131
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 104832 bytes of wave data, but read only 103680 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839132
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 214272 bytes of wave data, but read only 213120 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839133
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 127872 bytes of wave data, but read only 126720 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839134
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 103680 bytes of wave data, but read only 102528 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839138
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 141696 bytes of wave data, but read only 140544 bytes. Truncated file?
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:181) Processed 550 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839139
+WARNING (compute-mfcc-feats[5.5.1182~1-e02e3]:Read():wave-reader.cc:304) Expected 184320 bytes of wave data, but read only 183168 bytes. Truncated file?
+VLOG[2] (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:182) Processed features for key common_voice_lt_37839140
+LOG (compute-mfcc-feats[5.5.1182~1-e02e3]:main():compute-mfcc-feats.cc:185)  Done 551 out of 551 utterances.
+LOG (copy-feats[5.5.1182~1-e02e3]:main():copy-feats.cc:143) Copied 551 feature matrices.
+# Accounting: time=10 threads=1
+# Ended (code 0) at Wed Jan 14 11:25:42 EET 2026, elapsed time 10 seconds

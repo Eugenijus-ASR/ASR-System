@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:data/mano_atpazinimas/spk2utt scp:data/mano_atpazinimas/feats.scp ark,scp:/home/projects/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/cmvn_mano_atpazinimas.ark,/home/projects/magistras/kaldi-trunk/egs/lt_magistras/s5/mfcc/cmvn_mano_atpazinimas.scp 
+LOG (compute-cmvn-stats[5.5.1182~1-e02e3]:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 1 utterances; 0 had errors.
